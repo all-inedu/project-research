@@ -1,0 +1,101 @@
+@font-face {
+  font-family: SourceSansPro;
+  src: url(/assets/font/SourceSansPro-Regular.ttf);
+}
+body {
+  font-family: SourceSansPro;
+}
+
+header {
+  background-size: cover;
+  padding: 140px 0 165px;
+}
+header .container .logo-cover {
+  height: 220px;
+}
+header .container h1 {
+  color: #3532B5;
+  font-size: 48px;
+  font-weight: 700;
+}
+header .container p {
+  color: #3532B5;
+  font-size: 20px;
+  font-weight: 400;
+}
+header .container .caption-cover {
+  text-align: left;
+}
+
+.content {
+  background-color: #F5F5F5;
+}
+.content .container .card-paper {
+  padding-top: 60px;
+}
+.content .container .did-you-know {
+  height: 147px;
+}
+.content .container .subtitle {
+  color: #3532B5;
+}
+.content .container .paper-thumbnail {
+  max-height: 332px;
+}
+.content .container .title {
+  color: #3532B5;
+}
+.content .container .writer {
+  font-size: 15px;
+  font-weight: 400;
+}
+.content .container .btn-submit-paper {
+  font-size: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: #3532B5;
+  color: #fff;
+  height: 55px;
+  width: 313px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}
+.content .container .btn-submit-paper:hover {
+  background-color: #4745ce;
+}
+.content .container .btn-download-now {
+  font-size: 13px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: #3532B5;
+  color: #fff;
+  height: 25px;
+  width: 131px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}
+.content .container .btn-download-now:hover {
+  background-color: #4745ce;
+}
+
+footer {
+  max-height: 72px;
+  background-color: #ffffff;
+  padding: 15px;
+}
+footer .logo-footer {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+footer h5 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #3532B5;
+}
+footer .logo-social-media {
+  width: 47px;
+  height: 40px;
+}/*# sourceMappingURL=main.css.map */

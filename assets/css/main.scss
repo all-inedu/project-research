@@ -1,0 +1,129 @@
+@font-face {
+    font-family: SourceSansPro;
+    src: url(/assets/font/SourceSansPro-Regular.ttf);
+  }
+
+body{
+    font-family: SourceSansPro;
+}
+
+// header
+header{
+    background-size: cover;
+    padding: 140px 0 165px;
+
+    .container{
+        .logo-cover{
+            height: 220px;
+        }
+
+        h1{
+            color: #3532B5;
+            font-size: 48px;
+            font-weight: 700;
+        }
+
+        p{
+            color: #3532B5;
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        .caption-cover{
+            text-align: left;
+        }
+    }
+}
+
+// Content
+.content{
+    background-color: #F5F5F5;
+    .container{
+        
+        .card-paper{
+            padding-top: 60px;
+        }
+
+        .did-you-know{
+            height: 147px;
+        }
+
+        .subtitle{
+            color: #3532B5;
+        }
+
+        .paper-thumbnail{
+            max-height: 332px;
+        }
+
+        .title{
+            color: #3532B5;
+        }
+        .writer{
+            // margin-top: 50px;
+            font-size: 15px;
+            font-weight: 400;
+        }
+
+        .btn-submit-paper{
+            font-size: 20px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            background-color: #3532B5;
+            color: #fff;
+            height: 55px;
+            width: 313px;
+            left: 0px;
+            top: 0px;
+            border-radius: 0px;
+
+            &:hover {
+                background-color: #4745ce;
+            }
+        }
+    
+        .btn-download-now{
+            // margin-top: 50px;
+            font-size: 13px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            background-color: #3532B5;
+            color: #fff;
+            height: 25px;
+            width: 131px;
+            left: 0px;
+            top: 0px;
+            border-radius: 0px;
+
+            &:hover {
+                background-color: #4745ce;
+            }
+        }
+    }
+}
+
+// Footer
+footer{
+    max-height: 72px;
+    background-color: #ffffff;
+    padding: 15px;
+    
+
+    .logo-footer{
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+    }
+
+    h5{
+        font-size: 20px;
+        font-weight: 400;
+        color: #3532B5;
+    }
+
+    .logo-social-media{
+        width: 47px;
+        height: 40px;
+    }
+}
+
