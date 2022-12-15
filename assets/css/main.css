@@ -1,6 +1,6 @@
 @font-face {
   font-family: SourceSansPro;
-  src: url(/assets/font/SourceSansPro-Regular.ttf);
+  src: url('./assets/font/SourceSansPro-Regular.ttf');
 }
 body {
   font-family: SourceSansPro;
