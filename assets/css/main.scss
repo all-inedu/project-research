@@ -1,11 +1,3 @@
-@font-face {
-    font-family: SourceSansPro;
-    src: url(/assets/font/SourceSansPro-Regular.ttf);
-  }
-
-body{
-    font-family: SourceSansPro;
-}
 
 // header
 header{
@@ -18,6 +10,7 @@ header{
         }
 
         h1{
+            font-family: SFProDisplayBold;
             color: #3532B5;
             font-size: 48px;
             font-weight: 700;
@@ -38,6 +31,11 @@ header{
 .content{
     background-color: #F5F5F5;
     .container{
+
+        hr{
+            border: 1px solid #3532B5;
+            background-color: #3532B5;
+        }
         
         .card-paper{
             padding-top: 60px;
@@ -75,6 +73,7 @@ header{
             left: 0px;
             top: 0px;
             border-radius: 0px;
+            border: 0;
 
             &:hover {
                 background-color: #4745ce;
@@ -93,6 +92,7 @@ header{
             left: 0px;
             top: 0px;
             border-radius: 0px;
+            border: 0;
 
             &:hover {
                 background-color: #4745ce;
