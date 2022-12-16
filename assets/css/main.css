@@ -1,17 +1,17 @@
-/* @font-face {
+@font-face {
   font-family: SourceSansPro;
-  src: url(assets/font/SourceSansPro-Regular.ttf);
+  src: url(/assets/font/SourceSansPro-Regular.ttf);
 }
 body {
   font-family: SourceSansPro;
-} */
+}
 
 header {
   background-size: cover;
   padding: 140px 0 165px;
 }
 header .container .logo-cover {
-  height: 220px;
+  height: 92px;
 }
 header .container h1 {
   color: #3532B5;
@@ -19,7 +19,6 @@ header .container h1 {
   font-weight: 700;
 }
 header .container p {
-  color: #3532B5;
   font-size: 20px;
   font-weight: 400;
 }
@@ -87,7 +86,7 @@ footer {
 }
 footer .logo-footer {
   width: 50px;
-  height: 50px;
+  height: 38px;
   margin-right: 20px;
 }
 footer h5 {
