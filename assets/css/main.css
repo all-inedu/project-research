@@ -108,6 +108,9 @@ footer .logo-social-media {
   .content .container .title {
     margin-top: 20px;
   }
+  footer {
+    max-height: 95px;
+  }
   footer h5 {
     font-size: 14px;
   }
