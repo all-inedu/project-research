@@ -96,4 +96,23 @@ footer h5 {
 footer .logo-social-media {
   width: 50px;
   height: 42px;
+}
+
+@media (max-width: 500px) {
+  header .container .logo-cover {
+    height: 70px;
+  }
+  .content .container .card-paper {
+    text-align: center;
+  }
+  .content .container .title {
+    margin-top: 20px;
+  }
+  footer h5 {
+    font-size: 14px;
+  }
+  footer .logo-social-media {
+    width: 45px;
+    height: 38px;
+  }
 }/*# sourceMappingURL=main.css.map */
