@@ -145,6 +145,22 @@ footer{
             .title{
                margin-top: 20px; 
             }
+
+            .btn-submit-paper{
+                font-size: 16px;
+                background-color: #3532B5;
+                color: #fff;
+                height: 50px;
+                width: 80%;
+                left: 0px;
+                top: 0px;
+                border-radius: 0px;
+                border: 0;
+    
+                &:hover {
+                    background-color: #4745ce;
+                }
+            }
         }
     }
 
@@ -159,6 +175,16 @@ footer{
         }
     }
 
+}
+
+@media (max-width: 350px) {
+        footer{
+            .container{
+                .item-footer{
+                    flex-direction: column;
+                }
+            }
+        }
 }
 
  
